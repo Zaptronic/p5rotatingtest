@@ -41,7 +41,7 @@ function circle(offset) {
     this.speed = randomGaussian(0.1, 0.8);
     this.offset = offset;
     this.minSize = 24;
-    this.maxSize = 64;
+    this.maxSize = 68;
     this.size = randomGaussian(this.minSize, this.maxSize);
     this.incrementer = 1;
     this.direction = 1;
